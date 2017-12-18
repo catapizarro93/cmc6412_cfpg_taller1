@@ -1,0 +1,36 @@
+<ion-navbar>
+    <ion-title>Método de Reducción </ion-title>
+  </ion-navbar>
+
+
+
+ 
+<ion-card>
+    <ion-row>
+      <ion-col>
+        <ion-fab top right>
+          <button ion-fab mini color="home-rojo" (click)="reducciondesarrollo()"><ion-icon name="arrow-round-forward"></ion-icon></button>
+        </ion-fab>
+      </ion-col>
+    </ion-row>
+    <ion-item-group (click)="reducciondesarrollo()">
+      <ion-item class="card-title" color="home-cardTitle">
+        <h2>¿Cómo lo hago?</h2>
+      </ion-item>
+    </ion-item-group>
+  </ion-card>
+
+  <ion-card>
+      <ion-row>
+        <ion-col>
+          <ion-fab top right>
+            <button ion-fab mini color="home-rojo" (click)="reduccionejemplo()"><ion-icon name="arrow-round-forward"></ion-icon></button>
+          </ion-fab>
+        </ion-col>
+      </ion-row>
+      <ion-item-group (click)="reduccionejemplo()">
+        <ion-item class="card-title" color="home-cardTitle">
+          <h2>Veamos un ejemplo</h2>
+        </ion-item>
+      </ion-item-group>
+    </ion-card>
